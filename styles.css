@@ -24,3 +24,14 @@ body {
 .container {
   height: 100vh;
 }
+
+.container__button {
+  background-color: var(--blue-button);
+  color: var(--primary-white);
+
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 1em;
+
+  display: block;
+}
