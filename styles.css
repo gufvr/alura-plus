@@ -14,3 +14,13 @@ body {
   background-color: var(--background-color);
   color: var(--primary-white);
 }
+
+.main__section {
+  background-image: url('./img/background.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container {
+  height: 100vh;
+}
