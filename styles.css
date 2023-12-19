@@ -23,8 +23,12 @@ body {
 
 .main__section {
   background-image: url('./img/background.svg');
+
   background-repeat: no-repeat;
   background-size: contain;
+
+  align-items: center;
+  text-align: center;
 }
 
 .container__box {
