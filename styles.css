@@ -2,6 +2,7 @@
   --primary-white: #ffffff;
   --secondary-gray: #c0c0c0;
   --blue-button: #167bf7;
+  --blue-button-hover: #00baff;
   --background-color: #00030c;
 
   --main-font: 'Inter';
@@ -132,7 +133,7 @@ body {
 .footer {
   text-align: center;
 
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 
 .footer__list {
@@ -158,4 +159,21 @@ body {
   margin: 0 7.5rem 1rem 7.5rem;
 
   color: var(--secondary-gray);
+}
+
+.footer__link:hover {
+  color: var(--blue-button);
+
+  transition: all 0.5s;
+}
+
+.footer__link:active {
+  color: var(--blue-button-hover);
+}
+
+.container__button:hover {
+  background-color: var(--blue-button-hover);
+  color: var(--background-color);
+
+  transition: all 0.2s;
 }
