@@ -128,3 +128,34 @@ body {
 
   color: var(--primary-white);
 }
+
+.footer {
+  text-align: center;
+
+  margin-bottom: 6rem;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+
+  list-style-type: none;
+
+  margin: 2.607rem 0 1.5rem 0;
+}
+
+.footer__link {
+  font-size: 1rem;
+  text-decoration: none;
+
+  color: var(--primary-white);
+
+  margin-right: 1rem;
+}
+
+.footer__text {
+  font-size: 0.875rem;
+  margin: 0 7.5rem 1rem 7.5rem;
+
+  color: var(--secondary-gray);
+}
